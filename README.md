@@ -68,7 +68,7 @@ exported by `summarizer.py`
 | --                            | --                                                                |
 | `all_trials.csv`              | accuracy of classification of each epochs in each trial           |
 | `experimental_setting.txt`    | log of configuration                                              |
-| `statistics.csv`              | *min, q25, med, q75, max, ave, std of accuracy of whole trials    |
+| `statistics.csv`              | *min, q25, med, q75, max, ave, std* of accuracy of whole trials   |
 
 
 ---
