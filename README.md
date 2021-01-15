@@ -1,6 +1,6 @@
 # Neural-Network
 
-3-layer Neural-Network (NN) written with Python 3
+3-layer Neural-Network (NN) written in Python 3
 
 ---
 

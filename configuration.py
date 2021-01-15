@@ -1,6 +1,6 @@
 import numpy as np
 import os.path
-import datetime
+import datetime, shutil
 from sklearn.datasets import load_iris
 
 class Configuration:
@@ -27,7 +27,8 @@ class Configuration:
         self.max_trial  = 30
         self.max_epoch  = 10000
         self.parallel   = True
-        
+        self.predict    = False     # True: predict(test)   / False: training
+
         # NN setting
         self.inp_lay    = self.X.shape[1]
         self.hid_lay    = 2
